@@ -1,0 +1,10 @@
+{
+  "title": "Contenu Documentation",
+  "url": "",
+  "logo": {
+    "light": "/logo.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "contenujs/contenu",
+  "twitter": "@contenujs"
+}
