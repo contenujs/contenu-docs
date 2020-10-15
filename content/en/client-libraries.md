@@ -48,19 +48,15 @@ Vue.use(Contenu, {
 ```vue
 <template>
   <div>
-    <p>{{ this.$contenu.header.name.parse() }}</p>
-    <p>{{ this.$contenu.header.job.parse() }}</p>
+    <p>{{ $contenu("header.name") }}</p>
+    <p>{{ $contenu("header.job") }}</p>
   </div>
 </template>
 ```
 
   </code-block>
 </code-group>
-<alert type="warning">
 
-The `parse()` function should be called after each object you want to access.
-
-</alert>
 This object would be like
 
 ```js
